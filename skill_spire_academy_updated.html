@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Skill Spire Academy | Digital Skills</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,Helvetica,sans-serif;color:#111;background:#fff;line-height:1.6}
+a{text-decoration:none;color:inherit}
+header{position:sticky;top:0;z-index:10;background:#fff;border-bottom:1px solid #e9eef5}
+nav{max-width:1100px;margin:auto;padding:16px 20px;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:22px;font-weight:800;color:#1167d8}.logo span{color:#111}
+nav .links{display:flex;gap:24px;font-size:14px;font-weight:600}
+.hero{background:linear-gradient(135deg,#f7fbff,#eaf3ff);padding:80px 20px}
+.hero-inner{max-width:1100px;margin:auto;display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center}
+.badge{display:inline-block;background:#dcecff;color:#1167d8;padding:7px 12px;border-radius:30px;font-size:13px;font-weight:700;margin-bottom:16px}
+h1{font-size:clamp(38px,6vw,64px);line-height:1.05;margin-bottom:20px}
+h1 span{color:#1167d8}
+.hero p{font-size:18px;color:#555;max-width:600px;margin-bottom:28px}
+.btn{display:inline-block;padding:13px 20px;border-radius:10px;font-weight:700;margin-right:8px}
+.primary{background:#1167d8;color:white}.secondary{border:1px solid #cbd7e6;color:#1167d8;background:white}
+.hero-card{background:#111;color:white;border-radius:24px;padding:32px;box-shadow:0 20px 50px #1167d82b}
+.hero-card h3{font-size:28px;margin-bottom:10px}.hero-card p{font-size:15px;color:#d8d8d8}
+section{max-width:1100px;margin:auto;padding:70px 20px}
+.section-title{text-align:center;margin-bottom:38px}.section-title h2{font-size:36px}.section-title p{color:#666}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.card{border:1px solid #e5ebf3;border-radius:16px;padding:24px;background:#fff;transition:.2s}
+.card:hover{transform:translateY(-4px);box-shadow:0 12px 30px #0000000d}
+.icon{font-size:30px;margin-bottom:12px}.card h3{margin-bottom:8px}.card p{color:#666;font-size:14px}
+.about{background:#f7faff}
+.about-inner{max-width:1100px;margin:auto;padding:70px 20px;display:grid;grid-template-columns:1fr 1fr;gap:45px}
+.about h2{font-size:38px;margin-bottom:14px}.about p{color:#555;margin-bottom:15px}
+.list{display:grid;gap:12px}.list div{background:white;padding:15px;border-radius:10px;border-left:4px solid #1167d8}
+.cta{max-width:1060px;margin:60px auto;padding:45px 25px;border-radius:24px;background:#1167d8;color:white;text-align:center}
+.cta h2{font-size:36px;margin-bottom:10px}.cta p{margin-bottom:22px;color:#e8f1ff}
+footer{background:#111;color:#ddd;text-align:center;padding:28px 20px}
+footer strong{color:#fff}
+@media(max-width:800px){
+nav .links{display:none}.hero-inner,.about-inner{grid-template-columns:1fr}
+.grid{grid-template-columns:1fr 1fr}.hero{padding:60px 20px}
+}
+@media(max-width:480px){.grid{grid-template-columns:1fr}section{padding:55px 18px}.about-inner{padding:55px 18px}}
+</style>
+</head>
+<body>
+<header>
+<nav>
+<div class="logo">Skill <span>Spire</span> Academy</div>
+<div class="links"><a href="#home">Home</a><a href="#courses">Courses</a><a href="#about">About</a><a href="#contact">Contact</a></div>
+</nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+<div class="hero-inner">
+<div>
+<div class="badge">DIGITAL SKILLS ACADEMY</div>
+<h1>Learn Skills.<br><span>Build Your Future.</span></h1>
+<p>Learn practical digital skills and prepare yourself for opportunities in the modern online world.</p>
+<a class="btn primary" href="#courses">Explore Courses</a>
+<a class="btn secondary" href="#contact">Contact Us</a>
+</div>
+<div class="hero-card">
+<h3>Skill Spire</h3>
+<p>Practical learning for students, beginners and aspiring freelancers.</p>
+<br>
+<p>✓ Digital Skills<br>✓ AI Tools<br>✓ Social Media Marketing<br>✓ Online Career Skills</p>
+</div>
+</div>
+</section>
+
+<section id="courses">
+<div class="section-title"><h2>Our Courses</h2><p>Build practical skills for the digital age.</p></div>
+<div class="grid">
+<div class="card"><div class="icon">📱</div><h3>Social Media Marketing</h3><p>Learn social media strategy, content, audience growth and marketing basics.</p></div>
+<div class="card"><div class="icon">🤖</div><h3>AI Tools</h3><p>Explore useful AI tools for productivity, content and digital work.</p></div>
+<div class="card"><div class="icon">🎬</div><h3>AI Video Editing</h3><p>Learn modern video creation and editing workflows using AI tools.</p></div>
+<div class="card"><div class="icon">🎨</div><h3>Graphic Designing</h3><p>Create professional social media graphics and digital designs.</p></div>
+<div class="card"><div class="icon">💻</div><h3>Digital Marketing</h3><p>Understand digital marketing fundamentals and online promotion.</p></div>
+<div class="card"><div class="icon">🛒</div><h3>E-Commerce</h3><p>Learn the fundamentals of building and promoting an online store.</p></div>
+<div class="card"><div class="icon">🚀</div><h3>Freelancing</h3><p>Learn the basics of presenting skills and finding online opportunities.</p></div>
+<div class="card"><div class="icon">✦</div><h3>More Skills</h3><p>Discover additional practical digital skills as your journey grows.</p></div>
+</div>
+</section>
+
+<div class="about" id="about">
+<div class="about-inner">
+<div><h2>Why Skill Spire?</h2><p>Skill Spire Academy focuses on practical digital learning designed for beginners and students.</p><p>Our goal is to help learners understand useful digital tools and develop skills they can continue building over time.</p></div>
+<div class="list">
+<div>✓ Beginner-friendly learning</div>
+<div>✓ Practical digital skills</div>
+<div>✓ Modern AI-focused tools</div>
+<div>✓ Career & freelancing guidance</div>
+</div>
+</div>
+</div>
+
+<div class="cta" id="contact">
+<h2>Ready to Start Learning?</h2>
+<p>Take the first step toward building your digital skills.</p>
+<a class="btn secondary" href="https://wa.me/923197603396">WhatsApp Us</a>
+<a class="btn secondary" href="mailto:skillspireacadmey@gmail.com">Email Us</a>
+</div>
+</main>
+
+<footer>
+<p><strong>Skill Spire Academy</strong> — Learn Digital Skills. Build Your Future.</p>
+<p>© 2026 Skill Spire Academy. All rights reserved.</p>
+</footer>
+</body>
+</html>
